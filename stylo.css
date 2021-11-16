@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+}
+.confirmationbg{
+	background-image: url('category.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 260px;
+	width: 100%;
+	background-position: left left;
+}
+.confirmh31{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+padding-top: 100px;
+}
+.confirmp31{
+font-size: 14px;
+color: green;
+text-align: center;
+padding-top: 40px;
+}
+.confirmdiv31{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(231, 171, 60, 0.4);
+}
+.confirmp32{
+font-size: 16px;
+color: black;
+
+}
+.confirmp33{
+font-size: 16px;
+font-weight: 500;
+color: black;
+
+}

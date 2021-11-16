@@ -1,0 +1,57 @@
+<div class="row">
+	@if($lang->rtl == 1)
+
+		<div class="footer-social-links">
+			<ul>
+				@if($sl->f_status == 1)
+				<li><a class="facebook" href="{{$sl->facebook}}">
+					<i class="fa fa-facebook"></i>
+				</a></li>
+				@endif
+				@if($sl->g_status == 1)
+				<li><a class="google" href="{{$sl->gplus}}">
+					<i class="fa fa-google"></i>
+				</a></li>
+				@endif
+				@if($sl->t_status == 1)
+				<li><a class="twitter" href="{{$sl->twitter}}">
+					<i class="fa fa-twitter"></i>
+				</a></li>
+				@endif
+				@if($sl->l_status == 1)
+				<li><a class="tumblr" href="{{$sl->linkedin}}">
+					<i class="fa fa-linkedin"></i>
+				</a></li>
+				@endif
+			</ul>
+		</div>
+
+	@else
+
+		<div class="footer-social-links">
+			<ul>
+				@if($sl->f_status == 1)
+				<li><a class="facebook" href="{{$sl->facebook}}">
+					<i class="fa fa-facebook"></i>
+				</a></li>
+				@endif
+				@if($sl->g_status == 1)
+				<li><a class="google" href="{{$sl->gplus}}">
+					<i class="fa fa-google"></i>
+				</a></li>
+				@endif
+				@if($sl->t_status == 1)
+				<li><a class="twitter" href="{{$sl->twitter}}">
+					<i class="fa fa-twitter"></i>
+				</a></li>
+				@endif
+				@if($sl->l_status == 1)
+				<li><a class="tumblr" href="{{$sl->linkedin}}">
+					<i class="fa fa-linkedin"></i>
+				</a></li>
+				@endif
+			</ul>
+		</div>
+
+	@endif
+</div>

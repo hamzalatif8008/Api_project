@@ -1,0 +1,3060 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planet Sid</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <!-- google font ends -->
+    <!-- main styling files start -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.scss">
+   
+   
+    <!-- main styling files end -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- main css -->
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- main css ends -->
+
+</head>
+
+<body class="bg-light">
+    <!-- page loader -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- page-loader ends-->
+    <!-- top-header starts -->
+   
+    <!-- Top Categories starts-->
+    <section class="bg-white">
+        <div class="banner-section spad">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-3 col-md-6 col-12">
+                        <div class="hovereffect">
+                            <img src="img/banner-1.jpg" alt="">
+                            <div class="overlay">
+                                <h2>CLOTHING</h2>
+                                <a class="info" href="vendor_store.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hovereffect">
+                            <img src="img/banner-2.jpg" alt="">
+                            <div class="overlay">
+                                <h2>ELECTRONICS</h2>
+                                <a class="info" href="vendor_store.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hovereffect">
+                            <img src="img/banner-3.jpg" alt="">
+                            <div class="overlay">
+                                <h2>HOME & KITCHEN</h2>
+                                <a class="info" href="vendor_store.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="hovereffect">
+                            <img src="img/banner-4.jpg" alt="">
+                            <div class="overlay">
+                                <h2>SMART PHONE</h2>
+                                <a class="info" href="vendor_store.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top categories ends-->
+   
+    <section>
+        <div class="wrapper pt-3">
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-10.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-15.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-22.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-5.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-19.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-30.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" offset-lg-4 col-lg-4 ">
+                    <h4 class=" text-center font-weight-bold py-1 mt-4" style="background-color: khaki;">Top
+                        Categories</h4>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper2 pt-3">
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-10.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-15.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-22.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-5.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-19.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-30.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-3 mt-4">
+                    <div class="set-bg">
+                        <img src="img/carou/ad.jpg" alt="" height="440px" width="100%">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <section>
+                        <div class="container-fluid">
+                            <div class="row ">
+                                <div class="col-lg-4 col-md-4">
+                                    <h4 class=" text-center font-weight-bold py-1 mt-4 text-capitalize"
+                                        style="background-color: khaki;">Discount Offers</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper3 pt-3">
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-10.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-15.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-22.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-5.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-19.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-30.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-21.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" offset-lg-4 col-lg-4 offset-md-4 col-md-4 ">
+                    <h4 class="text-capitalize text-center font-weight-bold py-1 mt-4" style="background-color: khaki;">
+                        Special Offers</h4>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper2 pt-3">
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-10.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-15.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-22.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-5.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-19.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-30.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" offset-lg-4 col-lg-4 offset-md-4 col-md-4 ">
+                    <h4 class="text-capitalize text-center font-weight-bold py-1 mt-4 text-capitalize"
+                        style="background-color: khaki;">
+                        Most Sellings</h4>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper2 pt-3">
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-10.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-15.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-22.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-5.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-19.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-30.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+            <div style="width: 100%;">
+
+                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                    class="single-product-area text-center">
+                    <div class="product-image-area">
+
+                        <div class="featured-tag" style="width: 100%;">
+
+
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                        </div>
+
+                        <img src="img/products/product-21.jpg" style="width: 100%;" alt="featured product">
+
+                        <div class="product-hover-top" id="sidspan">
+                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                    class="fa fa-play-circle"></i></span>
+                        </div>
+
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-border"></div>
+                        <div class="product-hover-area ">
+                            <input type="hidden" value="{{$prod->id}}">
+
+
+                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                data-target="#loginModal" rel-toggle="tooltip" title="Add to wishlist"><i
+                                    class="fa fa-heart "></i>
+                                <span class="wish-number">2</span>
+                            </span>
+
+                            <span class="wish-list hovertip wish-listt" data-toggle="modal" data-target="#myModal"
+                                rel-toggle="tooltip" title="quick view"><i class="fa fa-eye"></i>
+                            </span>
+                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                    class="fa fa-cart-plus"></i>
+                            </span>
+                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                    class="fa fa-exchange"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="product-description  text-center">
+                        <div class="product-name">Seth Rollins</div>
+                        <div class="product-review">
+                            <div class="ratings">
+                                <div class="empty-stars"></div>
+                            </div>
+                        </div>
+
+                        <div class="product-price ">Rs 1000000
+                            <del class="offer-price">Rs 500000</del>
+                        </div>
+
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-md-3 mt-4">
+                    <div class="set-bg">
+                        <img src="img/carou/ad.jpg" alt="" height="440px" width="100%">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <section>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class=" col-lg-4 col-md-4 ">
+                                    <h4 class="text-capitalize text-center font-weight-bold py-1 mt-4 text-capitalize"
+                                        style="background-color: khaki;">
+                                        Current Events</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper3 pt-3">
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-10.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-15.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-22.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-5.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-19.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-30.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="width: 100%;">
+
+                                <a href="{{route('front.product',['id' => $prod->id, 'slug' => $name])}}"
+                                    class="single-product-area text-center">
+                                    <div class="product-image-area">
+
+                                        <div class="featured-tag" style="width: 100%;">
+
+
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                            <span id="d{{$i++}}" style="background: {{$dtl}}">speakers</span>
+                                        </div>
+
+                                        <img src="img/products/product-21.jpg" style="width: 100%;"
+                                            alt="featured product">
+
+                                        <div class="product-hover-top" id="sidspan">
+                                            <span class="fancybox" data-fancybox href="{{$prod->youtube}}"><i
+                                                    class="fa fa-play-circle"></i></span>
+                                        </div>
+
+                                        <div class="gallery-overlay"></div>
+                                        <div class="gallery-border"></div>
+                                        <div class="product-hover-area ">
+                                            <input type="hidden" value="{{$prod->id}}">
+
+
+                                            <span class="wishlist hovertip no-wish " id="sidspan" data-toggle="modal"
+                                                data-target="#loginModal" rel-toggle="tooltip"
+                                                title="Add to wishlist"><i class="fa fa-heart "></i>
+                                                <span class="wish-number">2</span>
+                                            </span>
+
+                                            <span class="wish-list hovertip wish-listt" data-toggle="modal"
+                                                data-target="#myModal" rel-toggle="tooltip" title="quick view"><i
+                                                    class="fa fa-eye"></i>
+                                            </span>
+                                            <span class="hovertip addcart" rel-toggle="tooltip" title="Add to Cart"><i
+                                                    class="fa fa-cart-plus"></i>
+                                            </span>
+                                            <span class="hovertip compare" rel-toggle="tooltip" title="Compare"><i
+                                                    class="fa fa-exchange"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-description  text-center">
+                                        <div class="product-name">Seth Rollins</div>
+                                        <div class="product-review">
+                                            <div class="ratings">
+                                                <div class="empty-stars"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="product-price ">Rs 1000000
+                                            <del class="offer-price">Rs 500000</del>
+                                        </div>
+
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+    </section>
+ 
+  
+
+    <!-- Modal -->
+    <div class="modal fade" id="franchiseLoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">Close
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 style="font-size: 1.5rem;" class="mb-5 u-signin">Welcome to Planet Sid! Please Login.</h2>
+                    <div class="row mt-0">
+                        <div class="col-lg-12">
+                            <div class="login-form">
+
+                                <form action="#">
+                                    <div class="group-input">
+                                        <label for="username" class="u-signin2">Username or email address *</label>
+                                        <input type="text" id="username" placeholder="Franchise@mail.com">
+                                    </div>
+                                    <div class="group-input">
+                                        <label for="pass">Password *</label>
+                                        <input type="text" id="pass" placeholder="*****">
+                                    </div>
+                                    <div class="group-input gi-check">
+                                        <div class="gi-more">
+                                            <label for="save-pass">
+                                                Save Password
+                                                <input type="checkbox" id="save-pass" required>
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <a href="#" class="forget-pass">Forget your Password?</a>
+                                        </div>
+                                    </div>
+                                    <a type="submit" href="franchise dashboard/index.html"
+                                        class="site-btn login-btn text-center hvr-shrink">Sign In</a>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <div class="login-form">
+
+                                <form action="#">
+                                    <div class="row mt-3">
+                                        <div class="col-lg-12">
+                                            <label class="u-signin" for="username">Or Sign in with:</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="group-input">
+                                                <button type="submit"
+                                                    class="site-btn login-btn fb-btn hvr-shrink">FACEBOOK</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="group-input">
+                                                <button type="submit"
+                                                    class="site-btn login-btn google-btn hvr-shrink">GOOGLE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    
+    <script src="js/main.js"></script>
+   
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-93541536-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!--     <script type="text/javascript">
+    $(document).ready(function(){
+    $('.carouselsid').slick({
+    prevArrow:'.arrow-prev',
+    nextArrow:'.arrow-next',
+    slidesToShow: 4,
+    dots:false,
+    centerMode: true,
+    });
+    });
+    </script> -->
+    <script type="text/javascript">
+
+        $('.wrapper').slick({
+            slidesToShow: 5,
+            prevArrow: '.arrow-prev',
+            nextArrow: '.arrow-next',
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        });
+    </script>
+    <script type="text/javascript">
+
+        $('.wrapper2').slick({
+            slidesToShow: 6,
+            prevArrow: '.arrow-prev',
+            nextArrow: '.arrow-next',
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        });
+    </script>
+    <script type="text/javascript">
+
+        $('.wrapper3').slick({
+            slidesToShow: 4,
+            prevArrow: '.arrow-prev',
+            nextArrow: '.arrow-next',
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        slidesToShow: 3
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

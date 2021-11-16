@@ -1,0 +1,11 @@
+ <div class="col-md-12">
+                    <div class="owl-carousel logo-carousel">
+                        @foreach($brands->chunk(5) as $brandz)
+                        <ul class="logo-wrapper">
+                            @foreach($brandz as $brand)
+                            <li><a href="{{$brand->url}}"><img src="{{asset('assets/images/'.$brand->photo)}}" alt="client logo"></a></li>
+                            @endforeach
+                        </ul>
+                        @endforeach
+                    </div>
+                </div>
